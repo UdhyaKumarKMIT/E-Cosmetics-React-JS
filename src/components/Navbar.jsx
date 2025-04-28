@@ -14,7 +14,6 @@ const NavbarComponent = () => {
 
   const handleClose = () => setExpand(false)
   const shopCosmetics = () => {
-    // Scroll to the section with id="products"
     window.location.hash = "#products";
     handleClose();
   }

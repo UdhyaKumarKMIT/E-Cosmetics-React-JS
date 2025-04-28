@@ -16,7 +16,7 @@ const ProductsGrid = () => {
       <Container>
         <div className="text-center mb-5">
           <h2 className="display-5 fw-bold">Our Cosmetics Collection</h2>
-          <p className="lead text-muted">Premium quality products for your beauty routine</p>
+          <p className="lead text-muted">Premium Natural quality products for your beauty</p>
         </div>
 
         <div className="d-flex justify-content-center mb-4">
