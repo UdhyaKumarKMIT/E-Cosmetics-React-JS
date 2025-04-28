@@ -28,7 +28,7 @@ const NavbarComponent = () => {
     <Navbar bg="light" expanded={expand} expand="lg" sticky="top" className="shadow-sm py-3">
       <Container>
         <Navbar.Brand as={Link} to="/" className="fw-bold fs-4">
-          <img src="naturalbeauty.svg" alt="GlowUp Cosmetics" height="40" className="d-inline-block align-top me-2" />
+          <img src="Logo.png" alt="GlowUp Cosmetics" height="40" className="d-inline-block align-top me-2" />
           MIT Cosmetics
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpand(expand ? false : "expanded")} />
