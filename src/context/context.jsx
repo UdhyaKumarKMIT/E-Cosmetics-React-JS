@@ -2,10 +2,8 @@
 
 import { createContext, useState, useContext, useEffect } from "react"
 
-// Create context
 const ShopContext = createContext()
 
-// Sample cosmetics products data
 const products = [
   {
     id: 1,
@@ -86,21 +84,18 @@ export const ShopProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState([])
   const [user, setUser] = useState(null)
 
-  // Load user and cart from localStorage on initial render
   useEffect(() => {
     const storedUser = localStorage.getItem("currentUser")
     if (storedUser) {
       const parsedUser = JSON.parse(storedUser)
       setUser(parsedUser)
 
-      // Load cart for the logged-in user
       const allCarts = JSON.parse(localStorage.getItem("ShoppingCarts") || "{}")
       const userCart = allCarts[parsedUser.email] || []
       setCartItems(userCart)
     }
   }, [])
 
-  // Save cart to localStorage whenever it changes
   useEffect(() => {
     if (user) {
       const allCarts = JSON.parse(localStorage.getItem("ShoppingCarts") || "{}")
@@ -109,7 +104,6 @@ export const ShopProvider = ({ children }) => {
     }
   }, [cartItems, user])
 
-  // Add to cart
   const addToCart = (product) => {
     if (!user) {
       alert("Please login to add items to cart")
@@ -124,8 +118,6 @@ export const ShopProvider = ({ children }) => {
       setCartItems([...cartItems, { ...product, quantity: 1 }])
     }
   }
-
-  // Remove from cart
   const removeFromCart = (productId) => {
     const existingItem = cartItems.find((item) => item.id === productId)
 
@@ -189,7 +181,6 @@ export const ShopProvider = ({ children }) => {
   )
 }
 
-// Custom hook to use the shop context
 export const useShop = () => {
   return useContext(ShopContext)
 }

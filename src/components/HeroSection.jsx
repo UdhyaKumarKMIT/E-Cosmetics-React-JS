@@ -1,5 +1,4 @@
 import { Carousel, Button, Container } from "react-bootstrap"
-import { Link } from "react-router-dom"
 
 const HeroSection = () => {
   return (

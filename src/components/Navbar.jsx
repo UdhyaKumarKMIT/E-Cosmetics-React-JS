@@ -29,7 +29,7 @@ const NavbarComponent = () => {
       <Container>
         <Navbar.Brand as={Link} to="/" className="fw-bold fs-4">
           <img src="naturalbeauty.svg" alt="GlowUp Cosmetics" height="40" className="d-inline-block align-top me-2" />
-          GlowUp Cosmetics
+          MIT Cosmetics
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => setExpand(expand ? false : "expanded")} />
         <Navbar.Collapse id="responsive-navbar-nav">

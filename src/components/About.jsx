@@ -10,10 +10,10 @@ const About = () => {
           </Col>
           <Col lg={6}>
             <div className="ps-lg-4">
-              <h2 className="display-5 fw-bold mb-4">About GlowUp Cosmetics</h2>
+              <h2 className="display-5 fw-bold mb-4">About MIT Cosmetics</h2>
              
               <p className="mb-4">
-                Founded in 1999, GlowUp Cosmetics started with a simple idea: create cosmetics that are good for your
+                Founded in 1999,MIT  Cosmetics started with a simple idea: create cosmetics that are good for your
                 skin and good for the planet. We make natural products that enhance your beauty without compromising on
                 quality. We are the Best Cosmetic Brand in India.
               </p>

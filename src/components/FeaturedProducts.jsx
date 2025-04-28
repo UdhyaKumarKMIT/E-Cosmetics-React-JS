@@ -29,13 +29,6 @@ const FeaturedProducts = () => {
                 </div>
                 <Card.Body className="text-center">
                   <Card.Title as="h5">{product.name}</Card.Title>
-                  <div className="mb-2">
-                    <FaStar className="text-warning" />
-                    <FaStar className="text-warning" />
-                    <FaStar className="text-warning" />
-                    <FaStar className="text-warning" />
-                    <FaStar className="text-warning" />
-                  </div>
                   <Card.Text className="fw-bold">&#8377;{product.price.toFixed(2)}</Card.Text>
                 </Card.Body>
               </Card>

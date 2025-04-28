@@ -8,7 +8,7 @@ const Footer = () => {
       <Container>
         <Row className="mb-5">
           <Col lg={4} md={3} className="mb-4 mb-lg-0">
-            <h5 className="mb-4 fw-bold">GlowUp Cosmetics</h5>
+            <h5 className="mb-4 fw-bold">MIT Cosmetics</h5>
             <p className="mb-4">
                Natural beauty is the best kind of beauty. We believe in enhancing your natural features with our high-quality cosmetics.
 
@@ -101,7 +101,7 @@ const Footer = () => {
         <Row>
           <Col className="text-center">
             <p className="">
-              &copy; {new Date().getFullYear()} GlowUp Cosmetics Udhya Kumar K MIT. All rights reserved.
+              &copy; {new Date().getFullYear()} MIT Cosmetics Udhya Kumar K MIT. All rights reserved.
             </p>
           </Col>
         </Row>
