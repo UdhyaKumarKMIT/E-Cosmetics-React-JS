@@ -45,6 +45,14 @@ const ProductsGrid = () => {
               checked={filter === "makeup"}
               onChange={() => setFilter("makeup")}
             />
+            <Form.Check
+              type="radio"
+              label="haricare"
+              name="category"
+              id="haircare"
+              checked={filter === "haircare"}
+              onChange={() => setFilter("haircare")}
+            />
           </Form.Group>
         </div>
 

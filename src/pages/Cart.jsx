@@ -38,7 +38,6 @@ const Cart = () => {
 
   return (
     <>
-      <NavbarComponent />
       <main className="py-5 bg-light min-vh-100">
         <Container>
           <h2 className="mb-4 fw-bold">Shopping Cart</h2>

@@ -63,10 +63,9 @@ const Signup = () => {
       return
     }
 
-    // Get existing users or initialize empty array
     const existingUsers = JSON.parse(localStorage.getItem("registeredUsers") || "[]")
 
-    // Check if email already exists
+
     if (existingUsers.some((user) => user.email === formData.email)) {
       setError("Email already registered. Please use a different email or login.")
       setLoading(false)
@@ -86,8 +85,6 @@ const Signup = () => {
     const allCarts = JSON.parse(localStorage.getItem("ShoppingCarts") || "{}")
     allCarts[formData.email] = []
     localStorage.setItem("ShoppingCarts", JSON.stringify(allCarts))
-
-   
     navigate("/Login")
   }
 

@@ -9,7 +9,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-color: #158f64;
-
+    font-size: 1.3rem;
 
   }
   
@@ -24,7 +24,7 @@
   }
   
   .auth-header {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     text-align: center;
   }
   

@@ -38,7 +38,6 @@ const Login = () => {
       return
     }
 
-    // Get all registered users
     const users = JSON.parse(localStorage.getItem("registeredUsers") || "[]")
     const foundUser = users.find((user) => user.email === email)
 
