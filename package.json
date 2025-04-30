@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://UdhyaKumarKMIT.github.io/E-Cosmetics-React-JS",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
