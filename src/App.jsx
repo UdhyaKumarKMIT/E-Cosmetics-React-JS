@@ -12,10 +12,10 @@ function App() {
     <ShopProvider>
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
-          <Route path="/cart" element={<Cart />} />
+          <Route path="/E-Cosmetics-React-JS/" element={<Home />} />
+          <Route path="/E-Cosmetics-React-JS/login" element={<Login />} />
+          <Route path="/E-Cosmetics-React-JS/signup" element={<Signup />} />
+          <Route path="/E-Cosmetics-React-JS/cart" element={<Cart />} />
         </Routes>
       </Router>
     </ShopProvider>

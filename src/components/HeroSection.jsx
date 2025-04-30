@@ -43,7 +43,7 @@ const HeroSection = () => {
 
       <Carousel.Item>
         <div className="carousel-image-container" style={{ height: "80vh" }}>
-          <img className="d-block w-100 h-100 object-fit-cover" src="image3Hero.jpg" alt="Eco-friendly packaging" />
+          <img className="d-block w-100 h-100 object-fit-cover" src="/E-Cosmetics-React-JS/image3Hero.jpg" alt="Eco-friendly packaging" />
           <div className="carousel-overlay"></div>
         </div>
         <Carousel.Caption className="text-start carousel-content">
